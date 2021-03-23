@@ -1,0 +1,35 @@
+body {
+    background-color: blueviolet;
+    }
+    .App{
+        background-color: purple;
+        min-height: 500px;
+        width: 400px;
+        margin: 40px auto;
+    }
+#task-form input{
+    background-color:rgb(27,112,137);
+    border: 0;
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff;
+}
+#task-form input::placeholder{
+    color: rgba(255,255,255,0.5);
+}
+#task-form input:focus,#task-form button:focus{
+    outline: none;
+}
+#task-form button{
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgba(202, 156, 24, 1);
+    color: #fff;
+    cursor: pointer;
+}
